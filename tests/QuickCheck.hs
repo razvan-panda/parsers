@@ -7,6 +7,8 @@ module Main
 ( main
 ) where
 
+import SemVer
+
 import Control.Applicative
 
 import Data.Attoparsec.Text (parseOnly)
@@ -17,7 +19,6 @@ import Data.Either
 #endif
 
 import Test.QuickCheck
-import Test.QuickCheck.Instances ()
 
 import Text.Parsec.Prim as P (parse)
 import Text.Parser.Char

@@ -74,6 +74,7 @@ test-suite quickcheck
     parsec >= 3,
     parsers,
     QuickCheck,
-    quickcheck-instances
+    hspec,
+    trifecta
   ghc-options: -Wall -threaded
   hs-source-dirs: tests
