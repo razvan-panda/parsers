@@ -2,8 +2,8 @@ module SemVer where
 
 import           Control.Applicative
 import           Test.Hspec
-import           Text.Parser.Combinators
-import           Text.Trifecta
+import           Text.Parser.Combinators (unexpected)
+import           Text.Trifecta hiding (unexpected)
 import           Data.Char
 
 parserNaturalNoLeadZero :: Parser Integer
